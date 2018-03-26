@@ -10,41 +10,41 @@ We have collected 102,223 records from 588 batteries. Each battery may have more
 
 Each record has 18 attributes.
 
-event_country_code: Country where support contact initiated.
+<b>event_country_code</b>: Country where support contact initiated.
 
-batt_manufacturer: Battery manufacturer. It has been encoded to be anonymous.
+<b>batt_manufacturer</b>: Battery manufacturer. It has been encoded to be anonymous.
 
-installed_count: Number of batteries in the laptop as reported at the date of this record.
+<b>installed_count</b>: Number of batteries in the laptop as reported at the date of this record.
 
-batt_instance: Identifies whether this battery is a primary or secondary battery in the laptop.
+<b>batt_instance</b>: Identifies whether this battery is a primary or secondary battery in the laptop.
 
-cycle_count: Number of times that battery has been discharged and recharged.
+<b>cycle_count</b>: Number of times that battery has been discharged and recharged.
 
-temperature: Temperature of the battery at the date of this record.
+<b>temperature</b>: Temperature of the battery at the date of this record.
 
-battery_current: Battery electrical current at the date of this record.
+<b>battery_current</b>: Battery electrical current at the date of this record.
 
-design_capacity: Design capacity of the battery.
+<b>design_capacity</b>: Design capacity of the battery.
 
-full_charge_capacity: Full charge capacity of the battery at the date of this record.
+<b>full_charge_capacity</b>: Full charge capacity of the battery at the date of this record.
 
-remaining_capacity: Remaining battery charge at time of injection date.
+<b>remaining_capacity</b>: Remaining battery charge at time of injection date.
 
-design_voltage: Design voltage of the battery.
+<b>design_voltage</b>: Design voltage of the battery.
 
-batt_voltage: Battery voltage at the date of this record.
+<b>batt_voltage</b>: Battery voltage at the date of this record.
 
-cell_voltage1: Voltage of battery cell #1 at the date of this record. If the battery contains 2 cells then cell_voltage1 will be 0.  
+<b>cell_voltage1</b>: Voltage of battery cell #1 at the date of this record. If the battery contains 2 cells then cell_voltage1 will be 0.  
 
-cell_voltage2: Voltage of battery cell #2 at the date of this record.
+<b>cell_voltage2</b>: Voltage of battery cell #2 at the date of this record.
 
-cell_voltage3: Voltage of battery cell #3 at the date of this record.   
+<b>cell_voltage3</b>: Voltage of battery cell #3 at the date of this record.   
 
-cell_voltage4: Voltage of battery cell #4 at the date of this record. If the battery contains 2 cells, then cell_voltage4=0 AND cell_voltage1=0.
+<b>cell_voltage4</b>: Voltage of battery cell #4 at the date of this record. If the battery contains 2 cells, then cell_voltage4=0 AND cell_voltage1=0.
 
-status_register:  Status register of the battery at the date of this record.
+<b>status_register</b>:  Status register of the battery at the date of this record.
 
-risk: The risk value is defined as the number of days before this battery becomes a “bad” battery. If the battery is “bad” at the date of this record, the risk value is 0. Otherwise, we will find all its later records and look for the first date for the “bad” status. If there’s no “bad” status afterwards, the risk value is -1.
+<b>risk</b>: The risk value is defined as the number of days before this battery becomes a “bad” battery. If the battery is “bad” at the date of this record, the risk value is 0. Otherwise, we will find all its later records and look for the first date for the “bad” status. If there’s no “bad” status afterwards, the risk value is -1.
 
 
 # Evaluation
